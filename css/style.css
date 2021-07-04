@@ -1,0 +1,116 @@
+:root
+{
+	--b: #055999;
+}
+.logo
+{
+	width: 140px;
+}
+
+.navbar-light .navbar-nav .nav-link 
+{
+  color: var(--b);
+  padding : 5px 15px;
+}
+
+ .navbar-light .navbar-nav .nav-link:hover ,.navbar-light .navbar-nav .nav-link.active 
+ {
+ 	background: var(--b);
+ 	color: #fff;
+
+ } 
+ .sbox
+ {
+ 	background: #efefef;
+ 	padding: 55px 0;
+ 	border:1px solid #efefef; 
+ }
+.sbox i
+{
+	font-size: 65px;
+
+}
+.sbox:hover
+{
+	background: transparent;
+	border: 1px solid var(--b);
+}
+.sbox .btn
+{
+	background: var(--b);
+	display: inline-block;
+	margin-top: 20px;
+    color: #fff
+}
+.team
+{
+	background: var(--b);
+	color: #fff;
+	font-size: 14px;
+}
+
+.slider img
+{
+	filter: grayscale(100%);
+
+}
+
+.slider img:hover
+{
+	filter: grayscale(0);
+}
+
+.footer-top
+{
+	background: #1B1B1B;
+	color: #949494;
+}
+.footer-top ul
+{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.footer-top ul
+{
+	font-size: 14px;
+}
+.footer-top h5
+{
+	color: #fff;
+	padding-bottom: 15px;
+	font-weight: normal;
+}
+.footer-top p
+{
+   font-size: 14px;
+}
+
+.footer-bottom
+{
+	background: #191919;
+	color: #f5f5f5;
+	font-size: 14px;
+	padding: 20px 0;
+}
+.footer-bottom i
+{
+	color: #fff;
+	padding: 10px;
+}
+.scrollup
+{
+	position: fixed;
+	width: 32px;
+	height: 32px;
+	bottom: 0;
+	right: 20px;
+	background: #055999;
+	text-align: center;
+	line-height: 32px;
+    display: none;
+}
+.scrollup a
+{
+	color: #fff;
+}
